@@ -1,0 +1,32 @@
+.levelContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(226, 226, 226);
+  padding: 10px;
+  justify-content: space-between;
+  height: 70px;
+  margin: 20px;
+  width: 300px;
+}
+.levelBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.level {
+  display: flex;
+}
+.proficiency {
+  font-weight: 600;
+}
+.proficiency span {
+  color: red;
+}
+
+.levelUnit {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  /* border-radius: 50%; */
+  background: red;
+}

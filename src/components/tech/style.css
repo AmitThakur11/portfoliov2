@@ -1,0 +1,83 @@
+.techContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  place-items: flex-start;
+  padding: 10px 20px;
+  background: rgb(245, 244, 244);
+}
+.techContainer > .title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 900;
+}
+.techItem__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.techItem {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin-right: 20px;
+  font-size: 14px;
+  width: 50px;
+}
+.techItem > img {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 40px;
+}
+
+@media (max-width: 780px) {
+  .techContainer {
+    display: flex;
+    padding: 10px 20px;
+  }
+  .techContainer > .title {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .techItem__container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .techItem {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin-right: 20px;
+    font-size: 14px;
+  }
+  .techItem > img {
+    width: 30px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .techContainer {
+    display: flex;
+    padding: 10px 20px;
+  }
+  .techContainer > .title {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .techItem__container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .techItem {
+    margin-right: 20px;
+    font-size: 12px;
+  }
+  .techItem > img {
+    width: 27px;
+    margin-bottom: 4px;
+    margin-top: 6px;
+  }
+}
