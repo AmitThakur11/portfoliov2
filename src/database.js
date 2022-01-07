@@ -144,7 +144,7 @@ const ProjectData = [
       }
     ],
     live: "https://sagemind.netlify.app/",
-    source: "https://github.com/AmitThakur11/SageMind",
+    source: "https://github.com/AmitThakur11/SageMind/tree/developmentv2",
     logo: "https://cdn-icons-png.flaticon.com/512/974/974779.png"
   },
   {
@@ -190,8 +190,9 @@ const ProjectData = [
           "https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png"
       }
     ],
-    live: "https://viideoactive.netlify.app/",
-    source: "https://github.com/AmitThakur11/video-active-project",
+    live: "https://videoactive2.netlify.app/",
+    source:
+      "https://github.com/AmitThakur11/video-active-project/tree/developmentv2",
     logo: "https://cdn-icons-png.flaticon.com/512/1593/1593563.png"
   },
   {
