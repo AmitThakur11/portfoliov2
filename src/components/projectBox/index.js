@@ -19,7 +19,7 @@ const ProjectBox = ({ project }) => {
           <div className="projectName">{name}</div>
           <img src={logo} alt="/" />
         </div>
-        <img src={img} alt="/" />
+        <img src={img} loading="lazy" alt="/" />
         <div className="projectDetail">
           <div className="projectDescription">{projectDescription}</div>
           <div className="techUsedContainer">
@@ -27,7 +27,7 @@ const ProjectBox = ({ project }) => {
               {techUsed.map(({ id, img, name }) => {
                 return (
                   <div key={id} className="techUsed__items">
-                    <img src={img} alt="reactjs" />
+                    <img src={img} loading="lazy" alt="reactjs" />
                     <div className="techName">{name}</div>
                   </div>
                 );
